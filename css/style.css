@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: "roboto", "sans-serif";
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 0.75rem;
+  background-color: rgb(210, 0, 0);
+  color: white;
+}
+h1 {
+  padding: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+#img {
+  width: 400px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+#results-section {
+  display: none;
+}
+
+#greet {
+  display: none;
+  text-align: center;
+}
+
+#greet a {
+  margin-right: 1rem;
+  background-color: rgb(210, 0, 0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+#greet a:hover {
+  margin-right: 1rem;
+  background-color: rgb(230, 0, 0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* #greet > div > p {
+  border: 1px solid black;
+} */
+
+#results-section {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+#results-section h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+#select-sections {
+  display: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(210, 0, 0);
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+nav ul li {
+  margin-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+nav ul li a h1 {
+  padding: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+p {
+  padding: 1rem;
+}
+
+#buttons-section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#buttons-section a:first-child {
+  margin-right: 1rem;
+  background-color: rgb(210, 0, 0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+#buttons-section a:first-child:hover {
+  margin-right: 1rem;
+  background-color: rgb(230, 0, 0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+#buttons-section a:last-child {
+  margin-right: 1rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: black;
+  border: 1px solid black;
+}
+
+#buttons-section a:last-child:hover {
+  margin-right: 1rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: rgb(82, 82, 82);
+  border: 1px solid rgb(63, 63, 63);
+}
+
+#select-section {
+  padding: 1rem;
+}
+
+#select-section label {
+  margin-right: 1rem;
+}
+
+#select-section h3 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+#select-section div > ul {
+  list-style-type: none;
+}
+
+#select-section div > ul > li > input {
+  margin-right: 1rem;
+}
+
+#start-test {
+  margin-right: 1rem;
+  background-color: rgb(210, 0, 0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+  border: none;
+  margin: 1rem;
+  margin-top: 2rem;
+  display: inline-block;
+}
+#start-test:hover {
+  margin-right: 1rem;
+  background-color: rgb(230, 0, 0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+#logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+}

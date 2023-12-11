@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MemoRise</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&family=Happy+Monkey&family=Inter:wght@400;500;700&family=Jost&family=Karla:wght@400;500;700&family=Lato:wght@400;900&family=Montserrat:wght@400;700&family=Open+Sans&family=Orbitron:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@100;400;900&family=Sofia+Sans+Condensed:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <div id="logo"><a href="index.html">Logo</a></div>
+        <div id="logo"><a href="index.html">MemoRise</a></div>
         <ul>
           <li><a href="how-to-play.html">How to Play?</a></li>
           <li><a href="">About</a></li>
@@ -17,9 +24,50 @@
       </nav>
     </header>
     <main>
-      <section></section>
-      <section></section>
+      <section id="select-section">
+        <div><img src="" alt="" /></div>
+        <div>
+          <h1>Challenge Your Memory</h1>
+          <div>
+            <label for="name">Name</label><input name="name" type="text" />
+          </div>
+        </div>
+        <div>
+          <h3>Choose your speed</h3>
+          <ul id="levels"></ul>
+        </div>
+        <div>
+          <h3>Choose your images</h3>
+          <ul id="types"></ul>
+        </div>
+
+        <button id="start-test">Start Test</button>
+      </section>
+      <section>
+        <img id="img" src="" alt="" />
+      </section>
+      <section id="results-section">
+        <h2>Results</h2>
+        <p>Accuracy</p>
+        <b id="accuracy"></b>
+        <p>Response-time</p>
+        <b id="response-time"></b>
+      </section>
+
+      <section class="pop-up" id="greet">
+        <div>
+          <p id="greet-text">
+            You've successfully completed the level. Would you like to proceed
+            to another level?
+          </p>
+          <div>
+            <a href="start-test.html" id="next-level">Yes</a>
+            <a href="index.html">No</a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>Copyright 2023 | All rights reserved.</footer>
+    <script src="./js/start-test.js"></script>
   </body>
 </html>
